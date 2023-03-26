@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-image:url("/Js-prac-Sadeem/countdown-timer/tianhao-wang-wr8sMt9E3bU-unsplash.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh ;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-container{
+    display: flex;
+
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: -10rem;
+    color: coral;
+}
+
+.big-text{
+    color: rgb(192, 220, 211);
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+
+}
+
+.countdown-el{
+    text-align: center;
+}
+span{
+    color: rgb(192, 220, 211);
+    font-size: 2rem;
+}
